@@ -39,5 +39,3 @@ def save_vector_store(text_chunks):
     except Exception as e:
         error_message = CustomException("Failed to create new vector store", e)
         logger.error(error_message)
-
-    
